@@ -1,65 +1,61 @@
-import Image from "next/image";
+import HeroSection from '@/components/sections/HeroSection';
+import BrandSlider from '@/components/BrandSlider';
+import ProductCategoriesSection from '@/components/sections/ProductCategoriesSection';
+import WhyChooseUsSection from '@/components/sections/WhyChooseUsSection';
+import IndustriesServedSection from '@/components/sections/IndustriesServedSection';
+import CompanyStatsSection from '@/components/sections/CompanyStatsSection';
+import TestimonialsSection from '@/components/TestimonialsSection';
+import CTASection from '@/components/CTASection';
+
+// SEO content for homepage (hidden but indexed by search engines)
+const seoContent = {
+  h1: "Best Cement Supplier in Pakistan - Kamran Limited",
+  content: [
+    "Buy premium quality cement from Pakistan's most trusted supplier. Kamran Limited is the authorized dealer of top cement brands including Falcon Cement, Lucky Cement, Thatta Cement, and DG Khan Cement.",
+    "We supply OPC cement, SRC cement, white cement, block cement, and composite cement for residential, commercial, and infrastructure projects across Pakistan.",
+    "Get the best cement prices in Pakistan with guaranteed quality, fast delivery, and excellent customer service. Contact us at 0336-9283119 for instant quotes.",
+  ],
+};
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+    <main>
+      {/* Hidden SEO Content for Search Engines */}
+      <div className="sr-only">
+        <h1>{seoContent.h1}</h1>
+        {seoContent.content.map((text, index) => (
+          <p key={index}>{text}</p>
+        ))}
+      </div>
+
+      {/* Hero Section */}
+      <HeroSection 
+        title="Pakistan's Trusted"
+        highlightedText="Cement Supplier"
+        subtitle="Authorized dealer of premium cement brands • Quality guaranteed • Competitive prices • Timely delivery"
+      />
+
+      {/* Brand Logos Strip */}
+      <BrandSlider />
+
+      {/* Product Categories Overview */}
+      <ProductCategoriesSection />
+
+      {/* Why Choose Us */}
+      <WhyChooseUsSection />
+
+      {/* Industries Served */}
+      <IndustriesServedSection />
+
+      {/* Company Stats */}
+      <CompanyStatsSection />
+
+      {/* Testimonials */}
+      <TestimonialsSection />
+
+      {/* CTA Section */}
+      <CTASection />
+    </main>
   );
 }
+
