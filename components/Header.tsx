@@ -6,12 +6,16 @@ import { useState } from 'react';
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
+  const closeMobileMenu = () => {
+    setIsMobileMenuOpen(false);
+  };
+
   return (
     <header className="bg-charcoal text-white shadow-lg sticky top-0 z-50">
-      <div className="container mx-auto px-4">
+      <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-12">
         <div className="flex items-center justify-between py-4">
           {/* Logo */}
-          <Link href="/" className="text-2xl font-bold tracking-tight">
+          <Link href="/" className="text-2xl font-bold tracking-tight -ml-2">
             <span className="text-accent">KAMRAN</span> LIMITED
           </Link>
 
@@ -69,28 +73,28 @@ export default function Header() {
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
           <nav className="md:hidden pb-4 space-y-2">
-            <Link href="/" className="block py-2 hover:text-accent font-medium">
+            <Link href="/" className="block py-2 hover:text-accent font-medium" onClick={closeMobileMenu}>
               HOME
             </Link>
-            <Link href="/about" className="block py-2 hover:text-accent font-medium">
+            <Link href="/about" className="block py-2 hover:text-accent font-medium" onClick={closeMobileMenu}>
               ABOUT
             </Link>
-            <Link href="/products" className="block py-2 hover:text-accent font-medium">
+            <Link href="/products" className="block py-2 hover:text-accent font-medium" onClick={closeMobileMenu}>
               PRODUCTS
             </Link>
-            <Link href="/brands" className="block py-2 hover:text-accent font-medium">
+            <Link href="/brands" className="block py-2 hover:text-accent font-medium" onClick={closeMobileMenu}>
               BRANDS
             </Link>
-            <Link href="/services" className="block py-2 hover:text-accent font-medium">
+            <Link href="/services" className="block py-2 hover:text-accent font-medium" onClick={closeMobileMenu}>
               SERVICES
             </Link>
-            <Link href="/industries" className="block py-2 hover:text-accent font-medium">
+            <Link href="/industries" className="block py-2 hover:text-accent font-medium" onClick={closeMobileMenu}>
               INDUSTRIES
             </Link>
-            <Link href="/contact" className="block py-2 hover:text-accent font-medium">
+            <Link href="/contact" className="block py-2 hover:text-accent font-medium" onClick={closeMobileMenu}>
               CONTACT
             </Link>
-            <Link href="/quote" className="block bg-accent text-charcoal px-6 py-3 rounded font-bold text-center mt-4">
+            <Link href="/quote" className="block bg-accent text-charcoal px-6 py-3 rounded font-bold text-center mt-4" onClick={closeMobileMenu}>
               GET QUOTE
             </Link>
           </nav>
