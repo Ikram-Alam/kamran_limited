@@ -158,7 +158,7 @@ export default function RootLayout({
           }
         ],
         "sameAs": [
-          "https://wa.me/923369283119"
+          "https://wa.me/923219283119"
         ],
         "address": {
           "@type": "PostalAddress",

@@ -107,7 +107,7 @@ export default function IndustriesServedSection() {
                 <div className="mt-3 h-1 w-16 bg-gradient-to-r from-accent to-orange-400 mx-auto rounded-full"></div>
               </div>
               <div className="group">
-                <div className="text-5xl md:text-6xl font-extrabold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent mb-3 group-hover:scale-110 transition-transform duration-300">15+</div>
+                <div className="text-5xl md:text-6xl font-extrabold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent mb-3 group-hover:scale-110 transition-transform duration-300">35+</div>
                 <div className="text-white font-bold text-lg uppercase tracking-wide">Years Experience</div>
                 <div className="mt-3 h-1 w-16 bg-gradient-to-r from-blue-400 to-cyan-400 mx-auto rounded-full"></div>
               </div>

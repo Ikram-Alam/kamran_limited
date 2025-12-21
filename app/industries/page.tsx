@@ -79,7 +79,7 @@ export default function IndustriesPage() {
             <div className="group relative">
               <div className="absolute inset-0 bg-gradient-to-br from-accent/20 to-industrial-green/20 rounded-2xl blur-xl group-hover:blur-2xl transition-all duration-300"></div>
               <div className="relative bg-white/5 backdrop-blur-sm border border-white/10 p-6 lg:p-8 rounded-2xl text-center hover:bg-white/10 hover:border-accent/50 transition-all duration-300">
-                <div className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-3 bg-gradient-to-r from-accent to-industrial-green bg-clip-text text-transparent group-hover:scale-110 transition-transform inline-block">15+</div>
+                <div className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-3 bg-gradient-to-r from-accent to-industrial-green bg-clip-text text-transparent group-hover:scale-110 transition-transform inline-block">35+</div>
                 <p className="text-base sm:text-lg lg:text-xl text-gray-300 font-semibold">Years Experience</p>
                 <div className="mt-4 h-1 w-16 mx-auto bg-gradient-to-r from-accent to-industrial-green rounded-full"></div>
               </div>

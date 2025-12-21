@@ -49,7 +49,7 @@ export default function WhyChooseUsSection() {
             <div className="h-1 w-24 bg-gradient-to-r from-industrial-green to-accent mx-auto rounded-full"></div>
           </div>
           <p className="text-gray-600 text-lg mt-4 max-w-2xl mx-auto">
-            Building trust through quality, reliability, and exceptional service since 2009
+            Building trust through quality, reliability, and exceptional service since 1990
           </p>
         </div>
 

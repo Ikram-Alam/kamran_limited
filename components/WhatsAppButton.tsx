@@ -5,7 +5,7 @@ import { useState } from 'react';
 export default function WhatsAppButton() {
   const [isOpen, setIsOpen] = useState(false);
   const [customMessage, setCustomMessage] = useState('');
-  const phoneNumber = '923369283119'; // WhatsApp number
+  const phoneNumber = '923219283119'; // WhatsApp number
 
   const predefinedMessages = [
     {

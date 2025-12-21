@@ -16,7 +16,7 @@ export default function Header() {
         <div className="flex items-center justify-between py-4">
           {/* Logo */}
           <Link href="/" className="text-2xl font-bold tracking-tight -ml-2">
-            <span className="text-accent">KAMRAN</span> LIMITED
+            <span className="text-accent">KAMRAN</span> CEMENT
           </Link>
 
           {/* Desktop Navigation */}

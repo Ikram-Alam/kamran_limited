@@ -106,7 +106,9 @@ export default function Footer() {
                 </svg>
                 <div>
                   <div>0336 9283119</div>
-                  <div>0315 9283119</div>
+                  <div>03219283119  (whatsapp)</div>
+                  <div>03363205344  (whatsapp)</div>
+                  <div>03138658032  (whatsapp)</div>                  
                 </div>
               </li>
               <li className="flex items-start">

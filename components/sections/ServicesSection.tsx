@@ -54,14 +54,14 @@ export default function ServicesSection({ services }: { services?: ServiceItemPr
       ]
     },
     {
-      icon: "📋",
-      title: "Credit Facilities",
-      description: "Flexible payment terms for registered contractors and builders",
+      icon: "🏗️",
+      title: "Related Construction Materials",
+      description: "One-stop solution for all your construction material needs",
       features: [
-        "30-60 day credit terms",
-        "Volume-based discounts",
-        "Paperless invoicing",
-        "Transparent pricing"
+        "Steel bars & rods",
+        "Construction sand & gravel",
+        "Bricks & blocks",
+        "Aggregates & crushed stones"
       ]
     },
     {

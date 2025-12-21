@@ -13,12 +13,12 @@ interface TimelineSectionProps {
 
 const defaultEvents: TimelineEvent[] = [
   {
-    year: '2009',
+    year: '1990',
     title: 'Company Established',
     description: 'Started as a small cement dealer in Karachi, focusing on quality and customer service.'
   },
   {
-    year: '2012',
+    year: '1995',
     title: 'Authorized Dealerships',
     description: 'Secured authorized dealerships from major cement brands including Falcon and Lucky Cement.'
   },
@@ -58,7 +58,7 @@ export default function TimelineSection({
             <div className="h-1 w-24 bg-gradient-to-r from-industrial-green to-accent mx-auto rounded-full"></div>
           </div>
           <p className="text-gray-300 text-base sm:text-lg mt-4 max-w-2xl mx-auto">
-            15+ years of excellence in cement supply and distribution
+            35+ years of excellence in cement supply and distribution
           </p>
         </div>
         
@@ -108,7 +108,7 @@ export default function TimelineSection({
         {/* Achievement Stats */}
         <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
           <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-6 text-center hover:border-industrial-green/50 transition-all">
-            <div className="text-3xl sm:text-4xl font-extrabold text-accent mb-2">15+</div>
+            <div className="text-3xl sm:text-4xl font-extrabold text-accent mb-2">35+</div>
             <div className="text-gray-300 text-xs sm:text-sm font-semibold uppercase">Years</div>
           </div>
           <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-6 text-center hover:border-industrial-green/50 transition-all">

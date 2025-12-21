@@ -26,7 +26,7 @@ export default function ContactPage() {
       `*Message:*\n${formData.message}`;
     
     // Redirect to WhatsApp
-    const whatsappNumber = '923369283119';
+    const whatsappNumber = '923219283119';
     const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappURL, '_blank');
   };

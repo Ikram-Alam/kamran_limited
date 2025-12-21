@@ -39,7 +39,7 @@ export default function HeroSection({ title, highlightedText, subtitle, primaryB
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 sm:h-3 sm:w-3 bg-accent"></span>
             </span>
-            <span className="text-white font-semibold text-xs sm:text-sm uppercase tracking-wider">Authorized Dealer Since 2009</span>
+            <span className="text-white font-semibold text-xs sm:text-sm uppercase tracking-wider">Authorized Dealer Since 1990</span>
           </div>
 
           <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl font-extrabold mb-3 sm:mb-4 leading-tight opacity-0 animate-fade-in-up delay-400">

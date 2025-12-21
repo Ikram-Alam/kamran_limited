@@ -11,7 +11,7 @@ interface CompanyStatsProps {
 }
 
 const defaultStats: Stat[] = [
-  { value: '15+', label: 'Years Experience', icon: '⏳', gradient: 'from-blue-400 to-blue-600' },
+  { value: '35+', label: 'Years Experience', icon: '⏳', gradient: 'from-blue-400 to-blue-600' },
   { value: '500K+', label: 'Tons Supplied', icon: '📦', gradient: 'from-green-400 to-emerald-600' },
   { value: '1000+', label: 'Projects Completed', icon: '🏗️', gradient: 'from-orange-400 to-red-600' },
   { value: '5', label: 'Premium Brands', icon: '⭐', gradient: 'from-yellow-400 to-orange-500' }
